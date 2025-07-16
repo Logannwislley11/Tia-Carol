@@ -20,5 +20,3 @@ $(document).ready(function () {
     envelope.addClass("close").removeClass("open");
   }
 });
-
-
