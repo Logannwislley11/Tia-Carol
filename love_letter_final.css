@@ -28,9 +28,11 @@ html, body {
   height: 280px;
   border-bottom-left-radius: 6px;
   border-bottom-right-radius: 6px;
+  margin-left: auto;
+  margin-right: auto;
+  top: 150px;
   background-color: #d9534f;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
-  margin: 0 auto;
 }
 
 .front {
@@ -167,14 +169,13 @@ html, body {
 }
 
 .zoom-wrapper {
-  transform: scale(1.25);
+  transform: scale(1.25); /* Aumenta visualmente em 125% */
   transform-origin: top center;
   width: 80vw;
-  min-height: 100vh;
+  height: 80vh;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center; /* ← Centraliza verticalmente */
+  justify-content: center;
   margin: 0 auto;
-  overflow: visible;
 }
